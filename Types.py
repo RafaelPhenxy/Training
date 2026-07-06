@@ -1,8 +1,8 @@
 N = input("Enter anything: ")
 
 print ("He is a Numeric?", N.isnumeric())
-print (N.isalpha())
-print (N.isupper())
-print (N.islower())
-print (N.isalnum())
-print (N.isdigit())
+print ("He is a alphabetic?", N.isalpha())
+print ("He is a upper?", N.isupper())
+print ("He is a lower?", N.islower())
+print ("He is a Alpha and Numeric?", N.isalnum())
+print ("He is a digit?", N.isdigit())
