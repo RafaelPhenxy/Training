@@ -53,3 +53,14 @@ print ('Seu desconto é {} e o valor com desconto é {}'.format(desconto, Preço
 sala = float(input('Salario: '))
 aumento = (sala*15)/100
 print ("Seu salario era de {} mas você teve um aumento de 15%({}), agora seu salario é {}".format(sala, aumento, sala+aumento))
+#C° to F°
+C =  float(input('C°: '))
+F = ((C*9)/5)+32
+print("{}C° is {}F°".format(C, F))
+#Rental car
+Day = int(input('Day with the car: '))
+Kms = float(input('KMs: '))
+DsV = Day*60
+KmV= Kms*0.15
+All = DsV + KmV
+print ("Days cost= R${:.2f}, Kms cost= R${:.2f} Pay me: R${:.2f}".format(DsV, KmV, All))
