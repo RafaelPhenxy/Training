@@ -16,4 +16,39 @@ print ("Rafael" in Name)
 print (Name.lower().find("de"))
 print (Name.split())
 Na = Name.split()
-print (Na [0])
+print (Na[0]+Na[1]+Na[2]+Na[3])
+#challenges
+na = str(input('Enter your name: ')).strip()
+print ('Your name in capital letters: {}'.format(na.upper()))
+print ('Your name in lowercase letters: {}'.format(na.lower()))
+ns = na.split()
+allnumb = ''.join(ns)
+print ('Adding all letters you have: {} letters.'.format(len(allnumb)))
+print ('Your first name is: {} and have: {} letters.'.format(ns[0], len(ns[0])))
+#
+num = int(input('Enter a number on 0-9999: '))
+U = num // 1 % 10
+D = num // 10 % 10
+C = num // 100 % 10
+M = num // 1000 % 10
+print ('Units is: {}'.format(U))
+print ('Tens is: {}'.format(D))
+print ('Hundreds is: {}'.format(C))
+print ('thousand is: {}'.format(M))
+#
+nm = str(input('Qual cidade que você nasceu? ')).strip()
+print (nm[:5].lower() == 'santo')
+#
+no = str(input('Qual seu nome? '))
+print ('Tem Silva no nome? {}'.format('silva' in no.lower()))
+#
+wr = str(input('enter anything word: ')).lower().strip()
+print ('First A in {}'.format(wr.find('a')+1))
+print ('Last A in {}'.format(wr.rfind('a')+1))
+print ('Total A is: {}'.format(wr.count('a')))
+#
+nm2 = str(input('Name: ')).strip()
+nms = nm2.split()
+print('Your first name is: {}'.format(nms[0]))
+print ('and your last name is: {}'.format(nms[len(nms)-1]))
+
